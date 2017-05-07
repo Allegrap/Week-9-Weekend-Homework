@@ -6,8 +6,8 @@ package example.codeclan.com.shoppingbasketcodetest.Classes;
 
 public class Banana extends Item{
 
-    public Banana(String name, int price, int quantity){
-        super(name, price, quantity);
+    public Banana(int price, int quantity){
+        super(price, quantity);
     }
 
 }

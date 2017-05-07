@@ -6,12 +6,10 @@ package example.codeclan.com.shoppingbasketcodetest.Classes;
 
 public abstract class Item {
 
-    private String name;
     private int price;
     private int quantity;
 
-    public Item(String name, int price, int quantity){
-        this.name = name;
+    public Item(int price, int quantity){
         this.price = price;
         this.quantity = quantity;
     }

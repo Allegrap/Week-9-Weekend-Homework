@@ -19,11 +19,14 @@ public class ShoppingBasket {
         this.items = new ArrayList<Item>();
     }
 
-    public String getCustomerName(){
-        return customer.getName();
+    public String getCustomer(){
+        return customer;
     }
 
-    public int getCustomerFunds() {
-        return customer.getFunds();
-    }
+//    public int getCustomerFunds() {
+//        return customer.getFunds();
+//    }
+
+
+
 }
