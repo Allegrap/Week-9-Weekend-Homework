@@ -42,4 +42,11 @@ public class ShoppingBasketTest {
         assertEquals(1, shoppingBasket.getItemsQuantity());
     }
 
+    @Test
+    public void removeItemFromBasketTest() {
+        shoppingBasket.addToBasket(banana);
+        shoppingBasket.removeItemFromBasket(banana);
+        assertEquals(0, shoppingBasket.getItemsQuantity());
+    }
+
 }
