@@ -23,4 +23,8 @@ public class Customer {
     public int getFunds() {
         return funds;
     }
+
+    public boolean getLoyaltyCard() {
+        return loyaltyCard;
+    }
 }

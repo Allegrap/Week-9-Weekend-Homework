@@ -30,4 +30,9 @@ public class CustomerTest {
         assertEquals(50, customer.getFunds());
     }
 
+    @Test
+    public void getLoyaltyCardTest(){
+        assertEquals(true, customer.getLoyaltyCard());
+    }
+
 }
