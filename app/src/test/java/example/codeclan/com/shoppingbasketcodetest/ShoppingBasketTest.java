@@ -39,7 +39,7 @@ public class ShoppingBasketTest {
     @Test
     public void addItemToBasketTest(){
         shoppingBasket.addToBasket(banana);
-        assertEquals(1, shoppingBasket.getItemQuantity());
+        assertEquals(1, shoppingBasket.getItemsQuantity());
     }
 
 }

@@ -8,8 +8,8 @@ import example.codeclan.com.shoppingbasketcodetest.Interfaces.Discountable;
 
 public class Bagel extends Item implements Discountable{
 
-    public Bagel(String name, int price, int quantity){
-        super(name, price, quantity);
+    public Bagel(int price, int quantity){
+        super(price, quantity);
     }
 
     public void discount(){
