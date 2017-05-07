@@ -11,5 +11,8 @@ public class ShoppingBasket {
     private ArrayList<Item> items;
     private Customer customer;
 
+    public ShoppingBasket(Customer customer){
+        this.customer = customer;
+    }
 
 }
