@@ -23,9 +23,19 @@ public class ShoppingBasketTest {
         customer1 = new Customer("Allegra", 50, true);
     }
 
+//    @Test
+//    public void getCustomerNameTest(){
+//        assertEquals("Allegra", shoppingBasket.getCustomerName());
+//    }
+//
+//    @Test
+//    public void getCustomerFundsTest(){
+//        assertEquals(50, shoppingBasket.getCustomerFunds());
+//    }
+
     @Test
-    public void getCustomerNameTest(){
-        assertEquals("Allegra", shoppingBasket.getCustomerName());
+    public void addItemToBasketTest(){
+
     }
 
 }

@@ -16,10 +16,14 @@ public class ShoppingBasket {
 
     public ShoppingBasket(Customer customer){
         this.customer = customer;
+        this.items = new ArrayList<Item>();
     }
 
     public String getCustomerName(){
         return customer.getName();
     }
 
+    public int getCustomerFunds() {
+        return customer.getFunds();
+    }
 }
