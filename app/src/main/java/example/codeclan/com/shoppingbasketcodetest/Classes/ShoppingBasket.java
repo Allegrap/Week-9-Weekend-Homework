@@ -18,8 +18,8 @@ public class ShoppingBasket {
         this.customer = customer;
     }
 
-    public Customer getCustomerName(){
-        return customer.name;
+    public String getCustomerName(){
+        return customer.getName();
     }
 
 }

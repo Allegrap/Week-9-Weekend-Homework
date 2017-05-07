@@ -16,4 +16,7 @@ public class Customer {
         this.loyaltyCard = loyaltyCard;
     }
 
+    public String getName() {
+        return name;
+    }
 }
