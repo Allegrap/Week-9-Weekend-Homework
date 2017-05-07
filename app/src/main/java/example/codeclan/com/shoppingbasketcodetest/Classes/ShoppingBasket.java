@@ -1,6 +1,9 @@
-package example.codeclan.com.shoppingbasketcodetest;
+package example.codeclan.com.shoppingbasketcodetest.Classes;
 
 import java.util.ArrayList;
+
+import example.codeclan.com.shoppingbasketcodetest.Classes.Customer;
+import example.codeclan.com.shoppingbasketcodetest.Classes.Item;
 
 /**
  * Created by user on 07/05/2017.
