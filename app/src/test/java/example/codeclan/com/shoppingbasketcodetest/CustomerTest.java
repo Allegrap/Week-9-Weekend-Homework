@@ -25,4 +25,9 @@ public class CustomerTest {
         assertEquals("Allegra", customer.getName());
     }
 
+    @Test
+    public void getFundsTest(){
+        assertEquals(50, customer.getFunds());
+    }
+
 }
