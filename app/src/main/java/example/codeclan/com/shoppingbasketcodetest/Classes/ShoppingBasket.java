@@ -31,6 +31,10 @@ public class ShoppingBasket {
         items.add(item);
     }
 
+    public void emptyBasket(){
+        items.clear();
+    }
+
     public int getItemsQuantity(){
         return items.size();
     }

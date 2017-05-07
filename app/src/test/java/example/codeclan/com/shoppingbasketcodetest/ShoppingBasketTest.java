@@ -43,9 +43,9 @@ public class ShoppingBasketTest {
     }
 
     @Test
-    public void removeItemFromBasketTest() {
+    public void emptyBasketTest() {
         shoppingBasket.addToBasket(banana);
-        shoppingBasket.removeItemFromBasket(banana);
+        shoppingBasket.emptyBasket();
         assertEquals(0, shoppingBasket.getItemsQuantity());
     }
 
